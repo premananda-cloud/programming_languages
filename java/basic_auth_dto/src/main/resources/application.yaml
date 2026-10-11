@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: basic_auth_dto
+  database
+    url: jdbc:postgresql://localhost:5432/db_learn
+    username: premananda
+    password: premananda#21A
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+logging:
+  level:
+    org.springframework.security: INFO
